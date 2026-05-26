@@ -1,0 +1,7 @@
+﻿# Local dev environment (Netic fork)
+.venv/
+.vscode/
+mcp/
+.luacheckrc
+.editorconfig
+.github/

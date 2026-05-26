@@ -1,0 +1,31 @@
+## Interface: 30300
+## Title: Skada |cff80c0ff(Netic)|r
+## Notes: Modular damage meter. Netic fork for WoW 3.3.5a (DragonUI-style).
+## Notes-deDE: Ein Damage-Meter.
+## Notes-esES: Un medidor de daño.
+## Notes-esMX: Un medidor de daño.
+## Notes-frFR: Un damage meter.
+## Notes-koKR: 데미지 미터 모듈입니다.
+## Notes-ruRU: Измеритель урона.
+## Notes-zhCN: 模块化伤害统计。
+## Notes-zhTW: 模組化的傷害統計。
+## OptionalDeps: Ace3, LibSharedMedia-3.0, LibDBIcon-1.0, AceGUI-3.0-SharedMediaWidgets, LibBossIDs-1.0, LibFail-1.0
+## LoadOnDemand: 0
+## SavedVariables: SkadaDB
+## SavedVariablesPerCharacter: SkadaCharDB
+## DefaultState: enabled
+## Author: Kader B. (bkader) — fork by NeticSoul
+## Version: 1.8.88-netic
+## X-Date: 2026-05-26
+## X-Credits: Zarnivoop, Funkeh, nebula169, bkader (upstream)
+## X-Fork-Maintainer: NeticSoul
+## X-Website: https://github.com/neticsoul/Skada-WotLK-Netic
+## X-Upstream: https://github.com/bkader/Skada-WoTLK
+## X-Curse-Project-ID: 623633
+## X-Category: Combat
+## X-License: MIT/X
+
+Libs\Load.xml
+Locales\Load.xml
+Core\Load.xml
+Modules\Load.xml
