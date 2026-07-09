@@ -18,7 +18,10 @@ for **World of Warcraft 3.3.5a**.
 - Includes targeted fixes for long-standing 3.3.5a issues reported in
   the original upstream repository and still unresolved there
   (see [CHANGELOG.md](CHANGELOG.md)).
-- DragonUI-style visual defaults plus a selectable DragonUI theme.
+- TWW (5Buttons)-style visual defaults out of the box, ported from
+  [Skada-Revisited-TWW-skin](https://github.com/5Buttons/Skada-Revisited-TWW-skin)
+  by [5Buttons](https://github.com/5Buttons) (Details: The War Within
+  inspired), plus a selectable DragonUI theme as an alternative.
 
 ## Install
 

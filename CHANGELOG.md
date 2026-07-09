@@ -20,9 +20,8 @@
   boss fight timer / DPS.
 
 ### Visual customisation — DragonUI-style theme
-- New module `Skada/Modules/ThemeDragon.lua`. Applies DragonUI-style
-  defaults on fresh profiles and adds a selectable preset named
-  `"DragonUI (Netic)"` in Skada's Themes list. Adjusts:
+- New module `Skada/Modules/ThemeDragon.lua`. Adds a selectable preset
+  named `"DragonUI (Netic)"` in Skada's Themes list. Adjusts:
   - Window backdrop (carbon/blue dark with subtle slate borders).
   - Bar height, spacing, font (compact and legible in combat).
   - Color tokens: DragonUI blue primary accent, soft gold for premium
@@ -32,3 +31,25 @@
   - Title bar minimalist, coherent button iconography.
 - Theme changes are visual-only and leave the underlying calculation
   engine untouched.
+- Superseded as the *default* look by the TWW theme below (still
+  fully selectable from the Themes panel).
+
+### Visual customisation — TWW (5Buttons) skin
+- New module `Skada/Modules/ThemeTWW.lua` plus a selectable preset named
+  `"TWW (5Buttons)"` in Skada's Themes list. Ports
+  [Skada-Revisited-TWW-skin](https://github.com/5Buttons/Skada-Revisited-TWW-skin)
+  by [5Buttons](https://github.com/5Buttons) (Details: The War Within
+  inspired) into this fork as a proper, always-available theme instead
+  of a separate addon:
+  - Bundled bar/header/background textures registered through
+    LibSharedMedia (`TWW Bar`, `TWW Header`, `TWW Background`).
+  - Taller bars (28px), gold title bar and text, dark translucent
+    background, class-colored bars with class/spec icons.
+  - `ThemeTWW.lua` keeps bar label positioning correctly centered on
+    the taller TWW bar texture, automatically, only for windows using
+    it — no extra setup needed.
+  - Applies TWW as the default look on fresh profiles/windows (same
+    mechanism ThemeDragon.lua used, now layered on top of it).
+    Existing profiles are untouched.
+- Apply it manually from any window's config → **Window Skins →
+  Themes**, select `"TWW (5Buttons)"` and hit **Apply**.

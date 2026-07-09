@@ -748,10 +748,15 @@ function Private.RegisterMedias()
 	LSM:Register("statusbar", "Smooth", format([[%s\Statusbar\Smooth]], ns.mediapath))
 	LSM:Register("statusbar", "Solid", [[Interface\Buttons\WHITE8X8]])
 	LSM:Register("statusbar", "TukTex", format([[%s\Statusbar\TukTex]], ns.mediapath))
+	LSM:Register("statusbar", "TWW Bar", format([[%s\Statusbar\TWWBar]], ns.mediapath))
+	LSM:Register("statusbar", "TWW Header", format([[%s\Statusbar\TWWHeader]], ns.mediapath))
 
 	-- borders
 	LSM:Register("border", "Glow", format([[%s\Border\Glow]], ns.mediapath))
 	LSM:Register("border", "Roth", format([[%s\Border\Roth]], ns.mediapath))
+
+	-- backgrounds
+	LSM:Register("background", "TWW Background", format([[%s\Background\TWWBackground]], ns.mediapath))
 
 	-- sounds
 	LSM:Register("sound", "Cartoon FX", [[Sound\Doodad\Goblin_Lottery_Open03.wav]])

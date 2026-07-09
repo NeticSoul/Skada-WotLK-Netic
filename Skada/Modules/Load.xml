@@ -27,4 +27,5 @@
 	<Script file="Spellcast.lua" />
 	<Script file="Nickname.lua" />
 	<Script file="ThemeDragon.lua" />
+	<Script file="ThemeTWW.lua" />
 </Ui>
