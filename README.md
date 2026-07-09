@@ -2,7 +2,7 @@
 
 ![WoW 3.3.5a](https://img.shields.io/badge/WoW-3.3.5a-1f6feb)
 ![Interface 30300](https://img.shields.io/badge/Interface-30300-0b7285)
-![Version](https://img.shields.io/badge/Version-1.8.88--netic-2b8a3e)
+![Version](https://img.shields.io/badge/Version-1.8.88--netic.1-2b8a3e)
 ![License MIT](https://img.shields.io/badge/License-MIT-f08c00)
 
 Skada is a lightweight modular combat meter for World of Warcraft,
